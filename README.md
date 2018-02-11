@@ -13,4 +13,4 @@ DBN (deep belief net) are simply stacked RBM's. They can be trained in a greedy 
 
 We performed the following steps:
 
-⋅⋅* We train a DBN on the MNIST dataset (we split 
+TO COMPLETE
