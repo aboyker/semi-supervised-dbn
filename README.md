@@ -9,3 +9,8 @@ As the name implies, semi-supervised learning lies between unsupervised learning
 DBN (deep belief net) are simply stacked RBM's. They can be trained in a greedy fashion, that is, each RBM is trained separately and the input of the second is the output of the first, and so forth.
 
 ![Deep belief network](dbn.png)
+## Methodology
+
+We performed the following steps:
+
+⋅⋅* We train a DBN on the MNIST dataset (we split 
