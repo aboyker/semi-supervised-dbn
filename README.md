@@ -6,4 +6,4 @@ As the name implies, semi-supervised learning lies between unsupervised learning
 ## Restricted Boltzmann Machines and Deep Belief Newtorks
 [RBM](https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine) are stochastic neural networks that can learn a probability distribution over its input, in an unsupervised way.
 
-![alt text](rbm.png){:height="50%" width="50%"}<!-- .element height="50%" width="50%" -->
+![alt text](rbm.png)<-- .element height="50%" width="50%" -->
