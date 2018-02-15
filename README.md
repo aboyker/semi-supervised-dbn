@@ -11,6 +11,13 @@ DBN (deep belief net) are simply stacked RBM's. They can be trained in a greedy 
 ![Deep belief network](dbn.png)
 ## Methodology
 
+
+The idea is to train a deep beelief network whose weights correspond to the weights of a multi-layer perceptron. We use the weights learnt by the DBN to initialize the MLP and train it on a very small data set.
+
 We performed the following steps:
 
-TO COMPLETE
+1) We train a deep belief network on 90% of the MNIST dataset
+2) We split the remaining 10% between 
+  
+    a) 2% for training the multi-layer perceptron (+- 90 data points)
+    b) 98% for validation (+- 4400 data points)
