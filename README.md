@@ -12,7 +12,7 @@ DBN (deep belief net) are simply stacked RBM's. They can be trained in a greedy 
 ## Methodology
 
 
-The idea is to train a deep beelief network whose weights correspond to the weights of a multi-layer perceptron. We use the weights learnt by the DBN to initialize the MLP and train it on a very small data set.
+The idea is to train a deep beelief network whose weights correspond to the weights of a multi-layer perceptron. We use the weights learnt by the DBN to initialize the MLP and train it on a very small data set. We use the architecture 500 - 500 - 2000, which is known to work well for this problem. This means that the DBN has an input layer of 784 dimensions (28*28, the size of the MNIST images) and three hidden layers of size 500 - 500 - 2000. The multi-layer perceptron has an 784-dimensional input layer and hidden layers of size 500 - 500 - 2000 as well. Its output layer is of size 10 (ten digits of the MNIST data set).
 
 We performed the following steps:
 
