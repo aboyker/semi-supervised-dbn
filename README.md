@@ -29,7 +29,7 @@ We performed the following steps:
 We plot the confusion matrix for this low sample size high-dimensional classification problem. The nework is trained on +-9 datapoints for each classes
 
 Here we have the results with the DBN weights, 57.094% accuracy
-![results Deep belief network](results_dbn.png)
+![results Deep belief network](results_dbn_weights.png)
 Here are the results with the gaussian-initialized weights, 48.372% accuracy
 
 ![results Deep belief network](results_gaussian_weights.png)
