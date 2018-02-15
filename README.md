@@ -20,4 +20,18 @@ We performed the following steps:
 2) We split the remaining 10% between 
   
     a) 2% for training the multi-layer perceptron (+- 90 data points)
+    
     b) 98% for validation (+- 4400 data points)
+    
+    
+## Results
+
+We plot the confusion matrix for this low sample size high-dimensional classification problem. The nework is trained on +-9 datapoints for each classes
+
+Here we have the results with the DBN weights, 57.094% accuracy
+![results Deep belief network](results_dbn.png)
+Here are the results with the gaussian-initialized weights, 48.372% accuracy
+
+![results Deep belief network](results_gaussian_weights.png)
+
+We repeated this experiment many times, with different splits for training/validation data. The DBN-initialized MLP consistently beat the MLP with gaussian random weights.
